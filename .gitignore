@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+.ssh/
+*.pem
+*_deploy
+*_deploy.pub
