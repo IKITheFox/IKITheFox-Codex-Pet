@@ -20,7 +20,7 @@ Previews use the frame durations defined by the Codex pet format. Actual state s
 
 ## Install
 
-1. Download [ikithefox-pet.zip](ikithefox-pet.zip).
+1. Download the latest [ikithefox-pet.zip](https://github.com/IKITheFox/IKITheFox-Codex-Pet/releases/latest/download/ikithefox-pet.zip) from [Releases](https://github.com/IKITheFox/IKITheFox-Codex-Pet/releases/latest).
 2. Extract `pet.json` and `spritesheet.webp` into the same directory:
    - Windows: `%USERPROFILE%\.codex\pets\ikithefox\`
    - macOS: `~/.codex/pets/ikithefox/`
@@ -48,7 +48,7 @@ To update, replace both files and refresh. Back up the previous version first.
 
 - `pet.json`: pet identity and format metadata.
 - `spritesheet.webp`: transparent 1536 x 2288 atlas, 8 columns x 11 rows, with 192 x 208 cells.
-- `ikithefox-pet.zip`: ready-to-extract installation package.
+- [Releases](https://github.com/IKITheFox/IKITheFox-Codex-Pet/releases/latest): ready-to-extract `ikithefox-pet.zip` installation package.
 - `assets/`: animated previews.
 
 This package uses `spriteVersionNumber: 2`. It does not change the app's frame rate or task-state logic.

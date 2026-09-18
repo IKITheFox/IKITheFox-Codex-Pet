@@ -20,7 +20,7 @@
 
 ## 安装
 
-1. 下载 [ikithefox-pet.zip](ikithefox-pet.zip)。
+1. 从 [Releases 最新版](https://github.com/IKITheFox/IKITheFox-Codex-Pet/releases/latest)下载 [ikithefox-pet.zip](https://github.com/IKITheFox/IKITheFox-Codex-Pet/releases/latest/download/ikithefox-pet.zip)。
 2. 将 `pet.json` 和 `spritesheet.webp` 解压到下方对应系统的目录中。
 3. 打开 **设置 > 宠物**，点击 **刷新**，选择 **IKITheFox**。
 
@@ -51,7 +51,7 @@
 
 - `pet.json`：宠物名称、简介及格式元数据。
 - `spritesheet.webp`：透明背景动画图集，尺寸为 1536 × 2288 像素，共 8 列 × 11 行，每格 192 × 208 像素。
-- `ikithefox-pet.zip`：可直接解压安装的压缩包。
+- [Releases](https://github.com/IKITheFox/IKITheFox-Codex-Pet/releases/latest)：提供可直接解压安装的 `ikithefox-pet.zip` 压缩包。
 - `assets/`：动画预览文件。
 
 本安装包使用 `spriteVersionNumber: 2`，不会修改应用自身的帧率或任务状态切换逻辑。
