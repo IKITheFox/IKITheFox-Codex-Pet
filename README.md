@@ -1,4 +1,7 @@
 # IKITheFox-Codex-Pet
+
+**English** | [简体中文](README.zh-CN.md)
+
 A custom fox desktop pet for Codex, with workstation animations and expressive reactions.
 
 Hi, I'm IKITheFox, your little fox coding companion in Codex.
@@ -25,11 +28,7 @@ Previews use the frame durations defined by the Codex pet format. Actual state s
 
 Keep the two files directly inside `ikithefox`, without an extra nested directory.
 
-### 中文安装说明
-
-下载上面的 ZIP，将 `pet.json` 和 `spritesheet.webp` 解压到用户目录下的 `.codex/pets/ikithefox/`，然后在 **设置 → 宠物 → 刷新** 中选择 **IKITheFox**。
-
-更新时替换这两个文件并刷新即可；建议先备份旧版。
+To update, replace both files and refresh. Back up the previous version first.
 
 ## Animations
 
