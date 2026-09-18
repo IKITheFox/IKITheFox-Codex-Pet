@@ -1,0 +1,28 @@
+name: Publish pet release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Package pet
+        run: |
+          mkdir -p dist
+          python -m zipfile -c dist/ikithefox-pet.zip pet.json spritesheet.webp
+          python -m zipfile -t dist/ikithefox-pet.zip
+      - name: Publish latest release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" dist/ikithefox-pet.zip \
+            --verify-tag --latest \
+            --title "IKITheFox $GITHUB_REF_NAME" \
+            --notes-file .github/RELEASE_NOTES.md
